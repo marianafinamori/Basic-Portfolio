@@ -270,6 +270,14 @@ input {
     
 }
 
+input:focus {
+    outline-color: #4aaaa5;
+}
+
+textarea:focus {
+    outline-color: #4aaaa5;
+}
+
 textarea {
     margin-top: 5px;
 }
@@ -286,6 +294,11 @@ textarea {
 
 .btn:hover {
     opacity: .5;
+}
+
+.btn:active {
+    background-color: #000066;
+    opacity: 1;
 }
 
 
